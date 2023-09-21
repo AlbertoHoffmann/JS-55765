@@ -1,5 +1,5 @@
 // Definir un objeto con la información de los elementos químicos
-const elementos = {
+let elementos = {
     metales: [
       { simbolo: "Fe", nombre: "Hierro", numeroAtomico: 26, masaAtomica: 55.84 },
       { simbolo: "Cu", nombre: "Cobre", numeroAtomico: 29, masaAtomica: 63.55 },
@@ -37,7 +37,7 @@ const elementos = {
   
   // Función para mostrar categorías
   function mostrarCategorias() {
-    const opcion = parseInt(prompt("Elija una categoría:\n1-Metales\n2-Metaloides\n3-No Metales"));
+    let opcion = parseInt(prompt("Elija una categoría:\n1-Metales\n2-Metaloides\n3-No Metales"));
   
     // Validar la opción elegida
     if (opcion === 1) {
@@ -56,17 +56,17 @@ const elementos = {
     let lista = "Lista de Elementos:\n";
   
     for (let i = 0; i < elementosArray.length; i++) {
-      const elemento = elementosArray[i];
+      let elemento = elementosArray[i];
       lista += `${i + 1}. ${elemento.nombre}\n`;
     }
   
-    const seleccion = parseInt(prompt(lista + "Ingrese el número del elemento deseado:"));
+    let seleccion = parseInt(prompt(lista + "Ingrese el número del elemento deseado:"));
   
     if (seleccion >= 1 && seleccion <= elementosArray.length) {
-      const elementoElegido = elementosArray[seleccion - 1];
+      let elementoElegido = elementosArray[seleccion - 1];
       alert(`Símbolo: ${elementoElegido.simbolo}\nNombre: ${elementoElegido.nombre}\nNúmero Atómico: ${elementoElegido.numeroAtomico}\nMasa Atómica: ${elementoElegido.masaAtomica}`);
   
-      const volver = confirm("¿Desea volver a consultar?");
+      let volver = confirm("¿Desea volver a consultar?");
   
       if (volver) {
         mostrarCategorias(); // Volver a la selección de categorías
