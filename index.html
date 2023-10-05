@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Iª PreEntrega Alberto Fernández</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultor de Elementos de la Tabla Periódica</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header>
+        <h1>Tabla Periódica de los Elementos</h1>
+    </header>
+
+    <div class="container">
+        <p>Bienvenido al consultor de elementos de la tabla periódica. Por favor, elija una categoría:</p>
+
+        <div class="filtro">
+            <label for="tipoElemento">Filtrar por tipo:</label>
+            <select id="tipoElemento" onchange="filtrarPorTipo()">
+                <option value="todos">Todos</option>
+                <option value="metales">Metales</option>
+                <option value="metaloides">Metaloides</option>
+                <option value="noMetales">No Metales</option>
+            </select>
+        </div>
+    </div>
+
+    <section class="tabla-periodica" id="tablaPeriodica">
+        <!-- aquí van los elementos -->
+    </section>
+
+    <footer>
+        <p>Tercera entrega JS - Alberto Fernández</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
