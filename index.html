@@ -13,8 +13,8 @@
     </header>
 
     <div class="container">
-        <p>Bienvenido al consultor de elementos de la tabla periódica. Por favor, elija una categoría:</p>
-
+        <p><strong>Bienvenido al consultor de elementos de la tabla periódica. Por favor, elija una categoría:</strong></p>
+        
         <div class="filtro">
             <label for="tipoElemento">Filtrar por tipo:</label>
             <select id="tipoElemento" onchange="filtrarPorTipo()">
@@ -30,8 +30,24 @@
         <!-- aquí van los elementos -->
     </section>
 
+    <div class="seleccion" id="seleccion">
+        <h2>Seleccione hasta dos Elementos</h2>
+        <button id="mostrarCarritoBtn">Mostrar Selección</button>
+        <ul id="carrito"></ul>
+    </div>
+    
+    <!-- Modal para mostrar el carrito -->
+    <div id="modalCarrito" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal(closed)">&times;</span>
+            <h2>Carrito de Elementos</h2>
+            <div id="contenidoCarrito"></div>
+            <button id="mostrarCompuesto">Formar Compuesto </button>
+        </div>
+    </div>
+
     <footer>
-        <p>Tercera entrega JS - Alberto Fernández</p>
+        <p>Entrega Final JS - Alberto Fernández</p>
     </footer>
 
     <script src="script.js"></script>

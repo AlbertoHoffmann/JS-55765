@@ -1,0 +1,79 @@
+//Elementos químicos 3x3
+Metales:
+Hierro (Fe)
+    Número atómico: 26
+    Masa atómica: 55.84
+
+Aluminio (Al)
+    Número atómico: 13
+    Masa atómica: 26.98
+
+Cobre (Cu)
+    Número atómico: 29
+    Masa atómica: 63.55
+
+No Metales:
+
+Oxígeno (O)
+    Número atómico: 8
+    Masa atómica: 15.99
+    
+Nitrógeno (N)
+    Número atómico: 7
+    Masa atómica: 14.01
+
+Flúor (F)
+    Número atómico: 9
+    Masa atómica: 18.99
+
+Metaloides:
+
+Boro (B)
+    Número atómico: 5
+    Masa atómica: 10.81
+
+Silicio (Si)
+    Número atómico: 14
+    Masa atómica: 28.09
+
+Antimonio (Sb)
+    Número atómico: 51
+    Masa atómica: 121.76
+
+
+
+combinaciones posibles//
+FeAl FeCu FeO FeN FeF FeB FeSi FeSb 
+AlCu AlO AlN AlF AlB AlSi AlSb
+Cu
+
+
+//Compuestos de a 2
+Combinaciones químicas posibles:
+Hierro (Fe) y Oxígeno (O):
+
+Óxido de Hierro (Fe₂O₃)
+Aluminio (Al) y Nitrógeno (N):
+
+Nitruro de Aluminio (AlN)
+Cobre (Cu) y Flúor (F):
+
+Fluoruro de Cobre (CuF₂)
+Oxígeno (O) y Nitrógeno (N):
+
+Óxido Nítrico (NO)
+Nitrógeno (N) y Flúor (F):
+
+Fluoruro de Nitrógeno (NF₃)
+Flúor (F) y Aluminio (Al):
+
+Fluoruro de Aluminio (AlF₃)
+Boro (B) y Silicio (Si):
+
+Boruro de Silicio (SiB₃)
+Silicio (Si) y Nitrógeno (N):
+
+Nitruro de Silicio (Si₃N₄)
+Antimonio (Sb) y Hierro (Fe):
+
+Antimonuro de Hierro (FeSb)
